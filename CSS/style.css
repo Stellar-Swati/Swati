@@ -1,0 +1,132 @@
+body{
+    margin:0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+h1 {
+    margin: 50px auto 2.5rem;
+    font-family: 'Sacramento', cursive;
+    color: #2a7372;
+    font-size: 4.8rem;
+}
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: #2a7372;
+    font-size: 1.7rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+.top-container{
+    background-color: rgb(163, 208, 251);
+    position: relative;
+    padding-top: 100px;
+}
+.top-cloud{
+    position: absolute;
+    right: 370px;
+    top:50px;
+}
+.bottom-cloud{
+    position: absolute;
+    bottom: 300px;
+left: 250px;
+}
+.middle-container{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.profile-image{+
+
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    border: 4px solid red;
+}
+p{
+    font-size: 1.25rem;
+    line-height: 2;
+}
+.intro{
+    width: 60%;
+    margin: auto;
+}
+hr{
+    border-style: none;
+    border-top-style:dotted ;
+border-color: red;
+border-width: 5px;
+width: 5%;
+margin: 100px auto;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #2a7372;
+
+}
+.skill-row{
+    width:50%;
+    margin:100px auto;
+    text-align:left;
+    font-size: 15px;
+}
+.skill-1{
+    width:14%;
+    float: left;
+    margin-right: 80px;
+}
+.skill-2{
+    width: 14%;
+    float:right;
+    margin-left: 80px;
+}
+.skill-3{
+    width:16%;
+    float: left;
+    margin-right: 80px;
+}
+.contact-info{
+    width: 40%;
+    margin:50px auto;
+}
+
+.buttonClass {
+    font-size:15px;
+    font-family:Trebuchet MS;
+    padding: 11px 28px;
+    text-decoration: none;
+    border-width:1px;
+    color:#fff;
+    border-color:rgba(89, 155, 179, 1);
+    font-weight:bold;
+    border-top-left-radius:8px;
+    border-top-right-radius:8px;
+    border-bottom-left-radius:8px;
+    border-bottom-right-radius:8px;
+    box-shadow: 1px 16px 20px -10px rgba(31, 103, 112, 1);
+    background:linear-gradient(rgba(23, 216, 180, 1), rgba(44, 148, 124, 1));
+  }
+  
+  .buttonClass:hover {
+    background: linear-gradient(rgba(44, 148, 124, 1), rgba(23, 216, 180, 1));
+  }
+  .bottom-container{
+    background-color: rgb(163, 208, 251);
+    padding-top: 100px;
+    padding-bottom: 35px;
+  }    
+  .bottom-link{
+    font-family: 'Sacramento', cursive;
+    /* width:50%; */
+    margin:70px 18px;
+    text-decoration: none;
+    font-size: 43px;
+    color: rgb(3, 74, 107);
+  }     
+  .bottom-link:hover{
+    color: #fff;
+  }   
+  .footer-right{
+    color: #fff;
+    margin-top: 24px;
+  }  
